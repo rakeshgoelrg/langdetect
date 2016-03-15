@@ -28,11 +28,11 @@ public class LanguageHelperImplTest extends BaseTest {
 
 	LanguageHelper languageHelper = new LanguageHelperImpl();
 	File langSampleFile, langSampleTestDir;
-	private static final URL TEST_SAMPLE_FILE = LanguageHelperImplTest.class.getResource("..\\resources\\samples\\ENGLISH.1.txt");
-	private static final URL TEST_SAMPLE_FILE1 = LanguageHelperImplTest.class.getResource("..\\resources\\samples\\ENGLISH.2");
-	private static final URL TEST_SAMPLE_FILE2 = LanguageHelperImplTest.class.getResource("..\\resources\\samples\\ENGLISH.txt");
-	private static final URL TEST_SAMPLE_FILE3 = LanguageHelperImplTest.class.getResource("..\\resources\\samples\\DUTCH");
-	private static final URL TEST_SAMPLE_TEST_DIRPATH = LanguageHelperImplTest.class.getResource("..\\resources\\samples\\");
+	private static final URL TEST_SAMPLE_FILE = LanguageHelperImplTest.class.getResource("../resources/samples/ENGLISH.1.txt");
+	private static final URL TEST_SAMPLE_FILE1 = LanguageHelperImplTest.class.getResource("../resources/samples/ENGLISH.2");
+	private static final URL TEST_SAMPLE_FILE2 = LanguageHelperImplTest.class.getResource("../resources/samples/ENGLISH.txt");
+	private static final URL TEST_SAMPLE_FILE3 = LanguageHelperImplTest.class.getResource("../resources/samples/DUTCH");
+	private static final URL TEST_SAMPLE_TEST_DIRPATH = LanguageHelperImplTest.class.getResource("../resources/samples/");
 	
 
 	@Before

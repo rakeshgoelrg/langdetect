@@ -30,7 +30,7 @@ import goelr.langdetect.model.LanguageSamples;
 public class LanguageHelperImpl implements LanguageHelper {
 
 	private static final String MSG_INVALID_LANGUAGE_SAMPLE_FILE_IGNORED = "Invalid language sample file. Ignored";
-	private static Logger LOGGER = LoggerFactory.getLogger(LanguageHelperImpl.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(LanguageHelperImpl.class);
 
 	/**
 	 * {@inheritDoc}

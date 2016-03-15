@@ -43,7 +43,7 @@ public class DetectionResult implements Comparable<DetectionResult> {
 		return 0.0;
 	}
 	
-	public String getFormatedMatchingPercentage() {
+	public String getFormattedMatchingPercentage() {
 		DecimalFormat df = new DecimalFormat("#.##");
 		return df.format(getMatchingPercentage());
 	}

@@ -25,7 +25,7 @@ public class DetectorServiceImpl implements DetectorService {
 	private static final String MSG_FILE_NOT_FOUND = "File not found.";
 	private static final String MSG_LANGUAGE_SAMPLES_FILES_NOT_FOUND = "Language samples files not found.";
 
-	private static Logger LOGGER = LoggerFactory.getLogger(DetectorServiceImpl.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(DetectorServiceImpl.class);
 
 	private LanguageHelper languageHelper;
 	private Detector detector;
@@ -66,7 +66,7 @@ public class DetectorServiceImpl implements DetectorService {
 	private DetectionResult processResult(SortedSet<DetectionResult> results) {
 		DetectionResult finalResult = results.last();
 		LOGGER.info("Best matching language is {}", finalResult.getLanguageName());
-		LOGGER.info("Matching percentage is {}%", finalResult.getFormatedMatchingPercentage());
+		LOGGER.info("Matching percentage is {}%", finalResult.getFormattedMatchingPercentage());
 
 		return finalResult;
 	}
