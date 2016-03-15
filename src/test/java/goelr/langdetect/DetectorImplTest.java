@@ -21,8 +21,8 @@ public class DetectorImplTest {
 	private Detector detector;
 	private LanguageHelper languageHelper;
 	private LanguageSamples langSamples;
-	private static final URL TEST_SAMPLE_TEST_DIRPATH = DetectorServiceImplTest.class.getResource("resources\\samples\\");
-	private static final URL TEST_UNKNOWN_FILE = DetectorServiceImplTest.class.getResource("resources\\test\\UNKNOWN.txt");
+	private static final URL TEST_SAMPLE_TEST_DIRPATH = DetectorServiceImplTest.class.getResource("resources/samples/");
+	private static final URL TEST_UNKNOWN_FILE = DetectorServiceImplTest.class.getResource("resources/test/UNKNOWN.txt");
 
 	@Before
 	public void setUp() throws Exception {

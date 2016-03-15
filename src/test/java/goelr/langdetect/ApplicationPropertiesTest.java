@@ -31,6 +31,6 @@ public class ApplicationPropertiesTest extends BaseTest {
 	public void testGetSampleDirPathFile() throws URISyntaxException {
 		String path = ApplicationProperties.getSamplesDirPathFile().getPath();
 		assertNotNull(path);
-		assertTrue(path.endsWith("goelr\\langdetect\\resources\\samples"));
+		assertTrue(path.endsWith("goelr/langdetect/resources/samples"));
 	}
 }

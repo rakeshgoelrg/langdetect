@@ -11,9 +11,9 @@ public class LanguageDetectorTest {
 	public void testMain() {
 		String[] args = new String[] {
 			"-f",
-			"D:\\Development\\workspace\\langdetect\\UNKNOWN.txt",
+			"/Users/buddy/development/langdetect/UNKNOWN.txt",
 			"-s",
-			"D:\\Development\\workspace\\langdetect\\samples" 
+			"/Users/buddy/development/langdetect/samples"
 		};
 		
 		LanguageDetector.main(args);

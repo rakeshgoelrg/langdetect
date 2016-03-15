@@ -31,8 +31,8 @@ public class DetectorServiceImplTest extends BaseTest {
 	private DetectorService languageService;
 	private File langSampleTestDir, langTestFile;
 	DetectionResult result;
-	private static final URL TEST_LANG_SAMPLES_DIRPATH = DetectorServiceImplTest.class.getResource("resources\\samples\\");
-	private static final URL TEST_UNKNOWN_FILE = DetectorServiceImplTest.class.getResource("resources\\test\\UNKNOWN.txt");
+	private static final URL TEST_LANG_SAMPLES_DIRPATH = DetectorServiceImplTest.class.getResource("resources/samples/");
+	private static final URL TEST_UNKNOWN_FILE = DetectorServiceImplTest.class.getResource("resources/test/UNKNOWN.txt");
 	
 	@Before
 	public void setUp() throws Exception {
